@@ -18,8 +18,17 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
-    <color name="ltgray">#ffe0e0e0</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF6D00</color>
+    <color name="colorAccentLight">#FF9E40</color>
+
+    <color name="photoPlaceholder">#CCCCCC</color>
+    <color name="dateBackground">#212121</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="icons">#FF1744</color>
+
+    <color name="dateText">#A8A8A8</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
 </resources>
