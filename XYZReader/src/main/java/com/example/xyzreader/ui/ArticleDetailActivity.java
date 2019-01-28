@@ -155,6 +155,7 @@ public class ArticleDetailActivity extends AppCompatActivity
     private void changeToolbarColors(Bitmap bitmap) {
         Palette.from(bitmap).generate(palette -> {
             int defaultScrimColor = ContextCompat.getColor(this, R.color.colorPrimaryDark);
+            assert palette != null;
             int scrimColor = palette.getDarkMutedColor(defaultScrimColor);
             if (binding.collapsingToolbarLayout != null) {
                 binding.collapsingToolbarLayout.setContentScrimColor(scrimColor);
@@ -185,7 +186,7 @@ public class ArticleDetailActivity extends AppCompatActivity
         }
 
         @Override
-        public void setPrimaryItem(ViewGroup container, int position, Object object) {
+        public void setPrimaryItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
             super.setPrimaryItem(container, position, object);
         }
 

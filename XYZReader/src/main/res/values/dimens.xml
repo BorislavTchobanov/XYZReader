@@ -1,20 +1,14 @@
 <resources>
     <!-- detail -->
     <dimen name="horizontal_padding">16dp</dimen>
-    <dimen name="vertical_padding">16dp</dimen>
     <dimen name="large_vertical_padding">24dp</dimen>
     <dimen name="small_vertical_padding">8dp</dimen>
-
-    <!-- detail -->
-    <dimen name="detail_title_text_size">32sp</dimen>
-    <dimen name="detail_body_text_size">22sp</dimen>
 
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="list_horizontal_margin">8dp</dimen>
-    <dimen name="list_vertical_margin">8dp</dimen>
 
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_title_size">22sp</dimen>
